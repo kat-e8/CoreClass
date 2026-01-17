@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "businessman_delete.png"
+  ],
+  "attributes": {
+    "width": 32,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-01-16T22:12:29Z"
+    },
+    "size": 1402,
+    "lastModificationSignature": "f2150fa2fd6620279d0c2198a26c0c49987def28a7136d60f8a7b7431296d9ee",
+    "height": 32
+  }
+}
