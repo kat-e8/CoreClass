@@ -39,7 +39,40 @@
           "x": 258,
           "y": 225
         },
+        "props": {
+          "value": 34
+        },
         "type": "ia.input.slider"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 95,
+          "x": 185,
+          "y": 360
+        },
+        "props": {
+          "text": "MyTank"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 77,
+          "x": 315.5,
+          "y": 360
+        },
+        "props": {
+          "text": "MySlider"
+        },
+        "type": "ia.display.label"
       }
     ],
     "meta": {
