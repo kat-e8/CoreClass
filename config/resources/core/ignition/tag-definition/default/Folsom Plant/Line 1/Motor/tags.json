@@ -1,0 +1,19 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 1/Motor/Amps",
+    "dataType": "Float8",
+    "name": "Amps",
+    "tooltip": "This is a tag in Ignition",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 1/Motor/HOA",
+    "dataType": "Int2",
+    "name": "HOA",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

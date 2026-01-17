@@ -1,0 +1,82 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomLong1",
+    "dataType": "Int8",
+    "name": "RandomLong1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomBoolean1",
+    "dataType": "Boolean",
+    "name": "RandomBoolean1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomShort2",
+    "dataType": "Int2",
+    "name": "RandomShort2",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomInteger1",
+    "dataType": "Int4",
+    "name": "RandomInteger1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomDouble1",
+    "dataType": "Float8",
+    "name": "RandomDouble1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomBoolean2",
+    "dataType": "Boolean",
+    "name": "RandomBoolean2",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomLong2",
+    "dataType": "Int8",
+    "name": "RandomLong2",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomInteger2",
+    "dataType": "Int4",
+    "name": "RandomInteger2",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomShort1",
+    "dataType": "Int2",
+    "name": "RandomShort1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Random/RandomDouble2",
+    "dataType": "Float8",
+    "name": "RandomDouble2",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

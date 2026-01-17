@@ -1,0 +1,18 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 1/Valve/Status",
+    "dataType": "Int2",
+    "name": "Status",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 1/Valve/Position",
+    "dataType": "Float8",
+    "name": "Position",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

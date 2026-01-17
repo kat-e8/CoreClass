@@ -1,0 +1,61 @@
+[
+  {
+    "valueSource": "memory",
+    "name": "Tag2",
+    "defaultValue": 21,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "TempF",
+    "defaultValue": 22,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Boolean",
+    "name": "lineStatus",
+    "defaultValue": false,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "{[.]Tag1} + {[.]Tag2}",
+    "name": "Sum",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "if({[.]inCelcius}, {[.]TempC}, {[.]TempF})",
+    "name": "Temp",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "derived",
+    "deriveExpressionGetter": "5/9*({source}-32)",
+    "deriveExpressionSetter": "9/5*{value}+32",
+    "sourceTagPath": "[.]TempF",
+    "name": "TempC",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "if({[.]TempF} \u003e 90, True, False)",
+    "dataType": "Boolean",
+    "name": "TooHot",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "Boolean",
+    "name": "inCelcius",
+    "defaultValue": false,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "Tag1",
+    "defaultValue": 22,
+    "tagType": "AtomicTag"
+  }
+]

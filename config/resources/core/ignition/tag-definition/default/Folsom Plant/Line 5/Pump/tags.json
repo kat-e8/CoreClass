@@ -1,0 +1,42 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 5/Pump/Pressure",
+    "dataType": "Float4",
+    "name": "Pressure",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 5/Pump/Mode",
+    "dataType": "Int2",
+    "name": "Mode",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 5/Pump/Total Volume",
+    "dataType": "Float8",
+    "name": "Total Volume",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 5/Pump/Status",
+    "dataType": "Int2",
+    "name": "Status",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line 5/Pump/Flow Rate",
+    "dataType": "Float8",
+    "name": "Flow Rate",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]
