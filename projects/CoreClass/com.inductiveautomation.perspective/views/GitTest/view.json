@@ -1,0 +1,50 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 187,
+          "width": 136,
+          "x": 165,
+          "y": 150
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "path": "../Slider.props.value"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Slider"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "angle": "-90deg"
+          },
+          "width": 192,
+          "x": 258,
+          "y": 225
+        },
+        "type": "ia.input.slider"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
