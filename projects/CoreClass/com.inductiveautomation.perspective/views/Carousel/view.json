@@ -1,0 +1,58 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Carousel"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "props": {
+          "activePane": 1,
+          "views": [
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "LineNumber": 1
+              },
+              "viewPath": "Flex Motor"
+            },
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "LineNumber": 2
+              },
+              "viewPath": "Flex Motor"
+            },
+            {
+              "alignItems": "flex-start",
+              "direction": "row",
+              "justify": "flex-start",
+              "viewParams": {
+                "LineNumber": 3
+              },
+              "viewPath": "Flex Motor"
+            }
+          ]
+        },
+        "type": "ia.display.carousel"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

@@ -1,41 +1,10 @@
 {
-  "custom": {
-    "nameProp": "Katlego Gagoopane",
-    "viewProp": 200
-  },
+  "custom": {},
   "params": {
-    "LineNumber": 1,
-    "ViewParam": 2,
-    "name": "Katlego Gagoopane"
+    "LineNumber": 1
   },
   "propConfig": {
-    "custom.nameProp": {
-      "binding": {
-        "config": {
-          "expression": "({view.params.name})"
-        },
-        "type": "expr"
-      },
-      "persistent": true
-    },
-    "custom.viewProp": {
-      "binding": {
-        "config": {
-          "expression": "100*{view.params.ViewParam}"
-        },
-        "type": "expr"
-      },
-      "persistent": true
-    },
     "params.LineNumber": {
-      "paramDirection": "input",
-      "persistent": true
-    },
-    "params.ViewParam": {
-      "paramDirection": "input",
-      "persistent": true
-    },
-    "params.name": {
       "paramDirection": "input",
       "persistent": true
     }
@@ -53,15 +22,15 @@
           "name": "Label"
         },
         "position": {
-          "height": 0.1067,
-          "width": 0.7533,
-          "x": 0.1233
+          "basis": "32px",
+          "grow": 1,
+          "shrink": 0
         },
         "propConfig": {
           "props.text": {
             "binding": {
               "config": {
-                "expression": "\"Line \" +{view.params.LineNumber} + \" Motor\""
+                "expression": "\"Line \" + {view.params.LineNumber} + \" Motor\""
               },
               "type": "expr"
             }
@@ -77,12 +46,6 @@
       {
         "meta": {
           "name": "Simple motor 4"
-        },
-        "position": {
-          "height": 0.4433,
-          "width": 0.5333,
-          "x": 0.2333,
-          "y": 0.1067
         },
         "props": {
           "elements": [
@@ -477,59 +440,62 @@
         "type": "ia.shapes.svg"
       },
       {
-        "meta": {
-          "name": "LedDisplay"
-        },
-        "position": {
-          "height": 0.1067,
-          "width": 0.4267,
-          "x": 0.45,
-          "y": 0.6067
-        },
-        "propConfig": {
-          "props.value": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "indirect",
-                "references": {
-                  "LineNumber": "{view.params.LineNumber}"
-                },
-                "tagPath": "[default]Motors/Motor {LineNumber}/Amps"
-              },
-              "type": "tag"
-            }
-          }
-        },
-        "type": "ia.display.led-display"
-      },
-      {
-        "meta": {
-          "name": "Label_0"
-        },
-        "position": {
-          "height": 0.1067,
-          "width": 0.2133,
-          "x": 0.21,
-          "y": 0.6067
-        },
-        "props": {
-          "style": {
-            "classes": "TagLabels"
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "105px"
+            },
+            "props": {
+              "text": "AMPS",
+              "textStyle": {
+                "classes": "TagLabels"
+              }
+            },
+            "type": "ia.display.label"
           },
-          "text": "Amps"
+          {
+            "meta": {
+              "name": "LedDisplay"
+            },
+            "position": {
+              "basis": "128px",
+              "grow": 1
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "indirect",
+                    "references": {
+                      "LineNumber": "{view.params.LineNumber}"
+                    },
+                    "tagPath": "[default]Motors/Motor {LineNumber}/Amps"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "type": "ia.display.led-display"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
         },
-        "type": "ia.display.label"
+        "position": {
+          "basis": "200px"
+        },
+        "type": "ia.container.flex"
       },
       {
         "meta": {
           "name": "MultiStateButton"
         },
         "position": {
-          "height": 0.1667,
-          "width": 0.6433,
-          "x": 0.1783,
-          "y": 0.7967
+          "basis": "120px"
         },
         "propConfig": {
           "props.controlValue": {
@@ -605,8 +571,8 @@
       "name": "root"
     },
     "props": {
-      "mode": "percent"
+      "direction": "column"
     },
-    "type": "ia.container.coord"
+    "type": "ia.container.flex"
   }
 }

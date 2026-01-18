@@ -11,8 +11,8 @@
   },
   "props": {
     "defaultSize": {
-      "height": 399,
-      "width": 463
+      "height": 282,
+      "width": 338
     }
   },
   "root": {
@@ -24,8 +24,7 @@
         "position": {
           "height": 32,
           "width": 222,
-          "x": 139,
-          "y": 13
+          "x": 73
         },
         "propConfig": {
           "props.text": {
@@ -49,9 +48,10 @@
           "name": "Gauge"
         },
         "position": {
-          "height": 137,
-          "width": 197,
-          "y": 96
+          "height": 67,
+          "width": 158,
+          "x": -5.5,
+          "y": 84
         },
         "propConfig": {
           "props.value": {
@@ -114,8 +114,8 @@
         "position": {
           "height": 32,
           "width": 80,
-          "x": 58.5,
-          "y": 64
+          "x": 30,
+          "y": 56
         },
         "props": {
           "style": {
@@ -130,10 +130,10 @@
           "name": "MultiStateButton"
         },
         "position": {
-          "height": 120,
-          "width": 204,
-          "x": 250,
-          "y": 80
+          "height": 61,
+          "width": 146,
+          "x": 166,
+          "y": 87
         },
         "propConfig": {
           "props.controlValue": {
@@ -211,8 +211,8 @@
         "position": {
           "height": 32,
           "width": 21,
-          "x": 118,
-          "y": 245
+          "x": 75,
+          "y": 151
         },
         "propConfig": {
           "props.text": {
@@ -238,8 +238,8 @@
         "position": {
           "height": 32,
           "width": 56,
-          "x": 57.5,
-          "y": 245
+          "x": 14.5,
+          "y": 151
         },
         "props": {
           "style": {
@@ -254,10 +254,10 @@
           "name": "Mag drive pump 1"
         },
         "position": {
-          "height": 112,
+          "height": 82,
           "width": 95,
-          "x": 51,
-          "y": 284
+          "x": 8,
+          "y": 190
         },
         "props": {
           "elements": [
@@ -1403,8 +1403,8 @@
         "position": {
           "height": 32,
           "width": 68,
-          "x": 250,
-          "y": 277
+          "x": 160,
+          "y": 183
         },
         "props": {
           "style": {
@@ -1420,9 +1420,9 @@
         },
         "position": {
           "height": 32,
-          "width": 128,
-          "x": 326,
-          "y": 268
+          "width": 82,
+          "x": 238.5,
+          "y": 174
         },
         "propConfig": {
           "props.value": {
@@ -1448,8 +1448,8 @@
         "position": {
           "height": 32,
           "width": 120,
-          "x": 217,
-          "y": 340
+          "x": 129,
+          "y": 246
         },
         "props": {
           "style": {
@@ -1465,9 +1465,9 @@
         },
         "position": {
           "height": 32,
-          "width": 128,
-          "x": 326,
-          "y": 340
+          "width": 94,
+          "x": 239,
+          "y": 240
         },
         "propConfig": {
           "props.value": {

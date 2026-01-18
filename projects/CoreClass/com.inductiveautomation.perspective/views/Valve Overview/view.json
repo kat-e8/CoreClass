@@ -1,0 +1,54 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 212,
+      "width": 535
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "height": 174,
+          "width": 191,
+          "x": 32,
+          "y": 32
+        },
+        "props": {
+          "params": {
+            "LineNumber": 3
+          },
+          "path": "Basic Valve"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_0"
+        },
+        "position": {
+          "height": 153,
+          "width": 194,
+          "x": 303,
+          "y": 32
+        },
+        "props": {
+          "params": {
+            "LineNumber": 6
+          },
+          "path": "Basic Valve"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

@@ -3,6 +3,13 @@
     "/": {
       "viewPath": "New View"
     },
+    "/carousel": {
+      "viewPath": "Carousel"
+    },
+    "/flex-view": {
+      "title": "",
+      "viewPath": "Flex View"
+    },
     "/lab": {
       "title": "",
       "viewPath": "LabView"
@@ -10,6 +17,18 @@
     "/labview": {
       "title": "",
       "viewPath": "Components Lab"
+    },
+    "/mega-view": {
+      "title": "",
+      "viewPath": "Mega View"
+    },
+    "/overview": {
+      "title": "",
+      "viewPath": "Overview"
+    },
+    "/overview-breakpoint": {
+      "title": "",
+      "viewPath": "Overview Breakpoint"
     },
     "/style-classes": {
       "viewPath": "Style Classes"
