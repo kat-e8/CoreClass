@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Pump 2",
+    "typeId": "PumpUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 2
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Pump 4",
+    "typeId": "PumpUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 4
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Pump 3",
+    "typeId": "PumpUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 3
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Pump 6",
+    "typeId": "PumpUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 6
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Pump 1",
+    "typeId": "PumpUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 1
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Pump 5",
+    "typeId": "PumpUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 5
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

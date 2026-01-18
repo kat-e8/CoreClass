@@ -1,0 +1,137 @@
+{
+  "custom": {},
+  "params": {
+    "LineNumber": 3
+  },
+  "propConfig": {
+    "params.LineNumber": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 200,
+      "width": 200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 176,
+          "x": 10.5,
+          "y": 7
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "\"Line \" + {view.params.LineNumber} + \" Valve\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "Header"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 15,
+          "y": 70
+        },
+        "props": {
+          "text": "Position"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 32,
+          "width": 103,
+          "x": 83.5,
+          "y": 62
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "tagPath": "[default]Valves/Valve {LineNumber}/Position"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 32,
+          "width": 50,
+          "x": 14.5,
+          "y": 110
+        },
+        "props": {
+          "text": "Status"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 104,
+          "x": 82.5,
+          "y": 110
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "tagPath": "[default]Valves/Valve {LineNumber}/Status"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.led-display"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

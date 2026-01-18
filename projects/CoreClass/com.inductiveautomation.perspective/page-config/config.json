@@ -10,6 +10,9 @@
     "/labview": {
       "title": "",
       "viewPath": "Components Lab"
+    },
+    "/style-classes": {
+      "viewPath": "Style Classes"
     }
   },
   "sharedDocks": {

@@ -1,0 +1,11 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#CEA119",
+      "fontFamily": "Helvetica",
+      "fontSize": "26px",
+      "fontWeight": "bold",
+      "textAlign": "center"
+    }
+  }
+}

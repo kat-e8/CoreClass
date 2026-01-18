@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Sensor 7",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 7
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 9",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 9
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 10",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 10
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 6",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 6
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 1",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 1
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 3",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 3
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 5",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 5
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 4",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 4
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 2",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 2
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Sensor 8",
+    "typeId": "SensorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 8
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

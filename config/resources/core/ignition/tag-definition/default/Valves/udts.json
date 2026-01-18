@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Valve 2",
+    "typeId": "ValveUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 2
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Valve 6",
+    "typeId": "ValveUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 6
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Valve 3",
+    "typeId": "ValveUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 3
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

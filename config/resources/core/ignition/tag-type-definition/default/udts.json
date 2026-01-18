@@ -1,0 +1,233 @@
+[
+  {
+    "name": "SensorUDT",
+    "typeId": null,
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Sensor/Error Code"
+        },
+        "valueSource": "opc",
+        "dataType": "String",
+        "name": "Error Code",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Setpoint",
+        "tagType": "AtomicTag"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Sensor/Value"
+        },
+        "valueSource": "opc",
+        "dataType": "Float4",
+        "name": "Value",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  },
+  {
+    "typeColor": -15015647,
+    "name": "LineUDT",
+    "typeId": null,
+    "parameters": {
+      "LineNumber": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "name": "MotorUDT",
+        "typeId": "MotorUDT",
+        "parameters": {
+          "Line Number": {
+            "dataType": "Integer",
+            "value": 0
+          }
+        },
+        "tagType": "UdtInstance"
+      },
+      {
+        "name": "PumpUDT",
+        "typeId": "PumpUDT",
+        "tagType": "UdtInstance"
+      },
+      {
+        "name": "SensorUDT",
+        "typeId": "SensorUDT",
+        "tagType": "UdtInstance"
+      },
+      {
+        "name": "ValveUDT",
+        "typeId": "ValveUDT",
+        "tagType": "UdtInstance"
+      }
+    ]
+  },
+  {
+    "name": "PumpUDT",
+    "typeId": null,
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Flow Rate"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "name": "Flow Rate",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Mode"
+        },
+        "valueSource": "opc",
+        "dataType": "Int2",
+        "name": "Mode",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Pressure"
+        },
+        "valueSource": "opc",
+        "dataType": "Float4",
+        "name": "Pressure",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Setpoint",
+        "value": 40,
+        "tagType": "AtomicTag"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Status"
+        },
+        "valueSource": "opc",
+        "dataType": "Int2",
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Total Volume"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "name": "Total Volume",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  },
+  {
+    "name": "ValveUDT",
+    "typeId": null,
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Valve/Position"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "name": "Position",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Valve/Status"
+        },
+        "valueSource": "opc",
+        "dataType": "Int2",
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  },
+  {
+    "name": "MotorUDT",
+    "typeId": null,
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Motor/Amps"
+        },
+        "valueSource": "opc",
+        "dataType": "Float8",
+        "name": "Amps",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Motor/HOA"
+        },
+        "valueSource": "opc",
+        "dataType": "Int2",
+        "name": "HOA",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "Float8",
+        "name": "Setpoint",
+        "value": 20,
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

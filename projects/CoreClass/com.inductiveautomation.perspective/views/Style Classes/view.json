@@ -1,0 +1,150 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 41,
+          "width": 78,
+          "x": 239,
+          "y": 113
+        },
+        "props": {
+          "text": "Tank 1",
+          "textStyle": {
+            "classes": "Header"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 50,
+          "x": 279,
+          "y": 255
+        },
+        "props": {
+          "style": {
+            "classes": "TagLabels"
+          },
+          "text": "Label"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 32,
+          "width": 128,
+          "x": 255,
+          "y": 398
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Folsom Plant/Line 1/Motor/Amps"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 32,
+          "width": 127,
+          "x": 90,
+          "y": 402
+        },
+        "props": {
+          "style": {
+            "classes": "TagLabels"
+          },
+          "text": "Temperature"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 128,
+          "x": 255,
+          "y": 483
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Folsom Plant/Line 2/Motor/Amps"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 32,
+          "width": 71,
+          "x": 113,
+          "y": 487
+        },
+        "props": {
+          "text": "Label",
+          "textStyle": {
+            "classes": "TagLabels"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 34,
+          "width": 80,
+          "x": 318,
+          "y": 604
+        },
+        "props": {
+          "style": {
+            "classes": "ButtonHighlight"
+          }
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

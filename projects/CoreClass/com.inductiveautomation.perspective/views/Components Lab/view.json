@@ -9,12 +9,15 @@
           "name": "Label"
         },
         "position": {
-          "height": 32,
+          "height": 62,
           "width": 139,
           "x": 320.5,
           "y": 16
         },
         "props": {
+          "style": {
+            "classes": "LabworkHeader"
+          },
           "text": "Something Else"
         },
         "type": "ia.display.label"
@@ -63,6 +66,11 @@
               },
               "type": "property"
             }
+          }
+        },
+        "props": {
+          "style": {
+            "borderStyle": "double"
           }
         },
         "type": "ia.display.cylindrical-tank"
@@ -227,6 +235,14 @@
             }
           }
         },
+        "props": {
+          "style": {
+            "fontFamily": "Helvetica",
+            "fontSize": "16px",
+            "fontWeight": "bold",
+            "textAlign": "center"
+          }
+        },
         "type": "ia.display.label"
       },
       {
@@ -240,7 +256,10 @@
           "y": 145
         },
         "props": {
-          "text": "Two"
+          "text": "Two",
+          "textStyle": {
+            "classes": "TagLabels"
+          }
         },
         "type": "ia.display.label"
       },
@@ -255,7 +274,10 @@
           "y": 145
         },
         "props": {
-          "text": "Three"
+          "text": "Three",
+          "textStyle": {
+            "classes": "TagLabels"
+          }
         },
         "type": "ia.display.label"
       },
@@ -423,7 +445,7 @@
           "y": 649
         },
         "props": {
-          "value": 59
+          "value": 62
         },
         "type": "ia.input.slider"
       },
@@ -456,6 +478,27 @@
           "value": 50
         },
         "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "Label_4"
+        },
+        "position": {
+          "height": 32,
+          "width": 50,
+          "x": 567,
+          "y": 34
+        },
+        "props": {
+          "style": {
+            "borderStyle": "groove",
+            "fontSize": "12px",
+            "fontStyle": "italic",
+            "padding": "3px"
+          },
+          "text": "Label"
+        },
+        "type": "ia.display.label"
       }
     ],
     "meta": {

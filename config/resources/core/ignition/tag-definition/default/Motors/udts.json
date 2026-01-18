@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Motor 4",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 4
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 3",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 3
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 2",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 2
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 5",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 5
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 12",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 12
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 7",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 7
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 1",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 1
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 10",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 10
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 6",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 6
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 11",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 11
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 9",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 9
+      }
+    },
+    "tagType": "UdtInstance"
+  },
+  {
+    "name": "Motor 8",
+    "typeId": "MotorUDT",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": 8
+      }
+    },
+    "tagType": "UdtInstance"
+  }
+]

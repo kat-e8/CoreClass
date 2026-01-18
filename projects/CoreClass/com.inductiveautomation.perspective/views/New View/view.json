@@ -77,7 +77,7 @@
             "interval": 10,
             "show": true
           },
-          "value": 68
+          "value": 44
         },
         "type": "ia.input.slider"
       },
@@ -236,6 +236,43 @@
           }
         },
         "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 109,
+          "width": 153,
+          "x": 231,
+          "y": 525
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#EFEFEF"
+          },
+          "text": "Background example"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 75,
+          "width": 154,
+          "x": 548,
+          "y": 559
+        },
+        "props": {
+          "style": {
+            "borderStyle": "solid",
+            "padding": "5px"
+          },
+          "text": "Border and Padding"
+        },
+        "type": "ia.display.label"
       }
     ],
     "meta": {
