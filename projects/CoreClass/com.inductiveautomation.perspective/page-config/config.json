@@ -35,6 +35,54 @@
     }
   },
   "sharedDocks": {
-    "cornerPriority": "top-bottom"
+    "bottom": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 100,
+        "viewParams": {},
+        "viewPath": "Footer"
+      }
+    ],
+    "cornerPriority": "top-bottom",
+    "left": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "LeftNav",
+        "modal": false,
+        "resizable": false,
+        "show": "onDemand",
+        "size": 200,
+        "viewParams": {},
+        "viewPath": "Left Nav"
+      }
+    ],
+    "top": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 700,
+        "content": "push",
+        "handle": "autoHide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "auto",
+        "size": 100,
+        "viewParams": {},
+        "viewPath": "Header Breakpoint"
+      }
+    ]
   }
 }
