@@ -1,7 +1,15 @@
 {
   "pages": {
     "/": {
-      "viewPath": "TestView"
+      "viewPath": "New View"
+    },
+    "/lab": {
+      "title": "",
+      "viewPath": "LabView"
+    },
+    "/labview": {
+      "title": "",
+      "viewPath": "Components Lab"
     }
   },
   "sharedDocks": {

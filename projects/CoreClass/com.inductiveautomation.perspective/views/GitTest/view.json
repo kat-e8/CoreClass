@@ -73,6 +73,31 @@
           "text": "MySlider"
         },
         "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 32,
+          "width": 128,
+          "x": 349,
+          "y": 566
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "publishInitial": false,
+                "tagPath": "[default]Custom Tags/Temp"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.led-display"
       }
     ],
     "meta": {
