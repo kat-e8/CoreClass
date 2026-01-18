@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "type": "smtp.classic"
+  },
+  "settings": {
+    "advanced": {
+      "debugModeEnabled": false,
+      "smtpTimeout": 10000,
+      "sslProtocols": "TLSv1.2"
+    },
+    "settings": {
+      "hostname": "private.oaitse.dev",
+      "password": null,
+      "port": 1027,
+      "startTlsEnabled": false,
+      "useSslPort": false,
+      "username": null
+    }
+  }
+}

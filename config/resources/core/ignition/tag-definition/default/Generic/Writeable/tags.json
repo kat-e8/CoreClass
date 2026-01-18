@@ -11,6 +11,14 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Writeable/WriteableBoolean2",
     "dataType": "Boolean",
+    "alarms": [
+      {
+        "setpointA": 1.0,
+        "name": "Diagnostic",
+        "priority": "Diagnostic",
+        "displayPath": "Diagnostic"
+      }
+    ],
     "name": "WriteableBoolean2",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -43,6 +51,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Writeable/WriteableBoolean1",
     "dataType": "Boolean",
+    "alarms": [
+      {
+        "setpointA": 1.0,
+        "activePipeline": "CoreClass/New Pipeline",
+        "name": "Boolean Alarm"
+      }
+    ],
     "name": "WriteableBoolean1",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"

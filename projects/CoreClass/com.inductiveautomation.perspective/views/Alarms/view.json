@@ -1,0 +1,106 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AlarmStatusTable"
+        },
+        "position": {
+          "basis": "400px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.filters.active.text": {
+            "binding": {
+              "config": {
+                "expression": "{../AlarmFilter.props.text}\n"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "filters": {
+            "active": {
+              "priorities": {
+                "critical": false,
+                "high": false,
+                "low": false,
+                "medium": false
+              },
+              "states": {
+                "activeAcked": false,
+                "activeUnacked": false,
+                "clearUnacked": false
+              }
+            }
+          },
+          "rowStyles": {
+            "activeUnacked": {
+              "base": {
+                "backgroundColor": "#D32A67"
+              }
+            }
+          }
+        },
+        "type": "ia.display.alarmstatustable"
+      },
+      {
+        "meta": {
+          "name": "AlarmJournalTable"
+        },
+        "position": {
+          "basis": "400px"
+        },
+        "propConfig": {
+          "props.filter.text": {
+            "binding": {
+              "config": {
+                "path": "../AlarmFilter.props.text"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "filter": {
+            "events": {
+              "acked": false,
+              "active": false,
+              "cleared": false
+            },
+            "priorities": {
+              "critical": false,
+              "high": false,
+              "low": false,
+              "medium": false
+            }
+          }
+        },
+        "type": "ia.display.alarmjournaltable"
+      },
+      {
+        "meta": {
+          "name": "AlarmFilter"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "text": "Motor"
+        },
+        "type": "ia.input.text-field"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

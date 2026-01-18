@@ -3,6 +3,9 @@
     "/": {
       "viewPath": "New View"
     },
+    "/alarms": {
+      "viewPath": "Alarms"
+    },
     "/carousel": {
       "viewPath": "Carousel"
     },

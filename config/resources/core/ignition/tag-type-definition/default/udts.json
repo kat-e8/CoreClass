@@ -206,6 +206,24 @@
         },
         "valueSource": "opc",
         "dataType": "Float8",
+        "alarms": [
+          {
+            "mode": "AboveValue",
+            "name": "AMPS High Alarm",
+            "setpointA": {
+              "bindType": "Tag",
+              "value": "[.]Setpoint"
+            },
+            "HOA": {
+              "bindType": "Tag",
+              "value": "[.]HOA"
+            },
+            "displayPath": {
+              "bindType": "Expression",
+              "value": "\"Motor Line \" + {Line Number} + \" AMPS High"
+            }
+          }
+        ],
         "name": "Amps",
         "tagType": "AtomicTag",
         "opcServer": "Ignition OPC UA Server"

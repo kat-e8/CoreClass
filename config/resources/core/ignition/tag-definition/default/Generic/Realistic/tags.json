@@ -3,6 +3,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic6",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic6",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -11,6 +18,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic2",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic2",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -19,6 +33,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic0",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic0",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -27,6 +48,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic7",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic7",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -35,6 +63,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic1",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic1",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -43,6 +78,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic9",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic9",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -51,6 +93,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic8",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic8",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -59,6 +108,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic3",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic3",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -67,6 +123,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic5",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic5",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"
@@ -75,6 +138,13 @@
     "valueSource": "opc",
     "opcItemPath": "ns\u003d1;s\u003d[Generic Simulator]Realistic/Realistic4",
     "dataType": "Float8",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 50.0,
+        "name": "High Realistic"
+      }
+    ],
     "name": "Realistic4",
     "tagType": "AtomicTag",
     "opcServer": "Ignition OPC UA Server"

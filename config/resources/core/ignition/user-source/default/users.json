@@ -1,26 +1,6 @@
 {
   "users": [
     {
-      "uuid": "1",
-      "username": "admin",
-      "firstName": "",
-      "lastName": "",
-      "schedule": "Always",
-      "description": "",
-      "password": "[21b848dd]99afe9b4a2167bb159255638bbf88c5d8f7edc004b0816efbe788589485fba5f",
-      "passwordDate": "20250224.200142398+0000",
-      "passwordHistory": [],
-      "badge": "",
-      "createdDate": "20260116.221233985+0000",
-      "lastModifiedDate": "20260116.221233985+0000",
-      "roles": [
-        "c9a52e7c-e898-481e-9e50-dd0a3e8037c2"
-      ],
-      "extraProps": [],
-      "scheduleAdjustments": [],
-      "contactInfos": []
-    },
-    {
       "uuid": "3bf7cc6f-7b9f-4e11-a31b-e1ce3275f731",
       "username": "userA",
       "firstName": "",
@@ -167,6 +147,37 @@
       ],
       "scheduleAdjustments": [],
       "contactInfos": []
+    },
+    {
+      "uuid": "1",
+      "username": "admin",
+      "firstName": "",
+      "lastName": "",
+      "schedule": "Always",
+      "description": "",
+      "password": "[21b848dd]99afe9b4a2167bb159255638bbf88c5d8f7edc004b0816efbe788589485fba5f",
+      "passwordDate": "20250224.200142398+0000",
+      "passwordHistory": [],
+      "badge": "",
+      "createdDate": "20260116.221233985+0000",
+      "lastModifiedDate": "20260118.174323000+0000",
+      "roles": [
+        "c9a52e7c-e898-481e-9e50-dd0a3e8037c2"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin",
+          "propertyValue": ""
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": [
+        {
+          "contactType": "email",
+          "value": "i@katlego.cloud",
+          "order": 0
+        }
+      ]
     }
   ],
   "roles": [
