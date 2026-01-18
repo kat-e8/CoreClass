@@ -3,7 +3,32 @@
     {
       "children": [
         {
-          "children": [],
+          "children": [
+            {
+              "children": [],
+              "name": "Administrator"
+            },
+            {
+              "children": [],
+              "name": "Developer"
+            },
+            {
+              "children": [],
+              "name": "Maintenance"
+            },
+            {
+              "children": [],
+              "name": "Manager"
+            },
+            {
+              "children": [],
+              "name": "Operator"
+            },
+            {
+              "children": [],
+              "name": "Security"
+            }
+          ],
           "description": "Represents the roles that a user has.",
           "name": "Roles"
         }

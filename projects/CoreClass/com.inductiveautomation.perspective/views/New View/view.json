@@ -273,6 +273,21 @@
           "text": "Border and Padding"
         },
         "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 32,
+          "width": 50,
+          "x": 561,
+          "y": 65
+        },
+        "props": {
+          "text": "Change"
+        },
+        "type": "ia.display.label"
       }
     ],
     "meta": {

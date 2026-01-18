@@ -1,6 +1,25 @@
 {
   "custom": {},
   "params": {},
+  "permissions": {
+    "securityLevels": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "name": "Administrator"
+              }
+            ],
+            "name": "Roles"
+          }
+        ],
+        "name": "Authenticated"
+      }
+    ],
+    "type": "AnyOf"
+  },
   "props": {},
   "root": {
     "children": [

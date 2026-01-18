@@ -10,11 +10,11 @@
   ],
   "attributes": {
     "lastModification": {
-      "actor": "8.3-migration",
-      "timestamp": "2026-01-16T22:12:34Z"
+      "actor": "unknown",
+      "timestamp": "2026-01-18T14:18:16Z"
     },
     "uuid": "2448bbb3-136d-400d-bc17-8afa2f91a066",
-    "lastModificationSignature": "e4a041ec4eba1d3ed3f30a1d82dc0671626dc37400de05b6aa0fd8d9b3f9fb8a",
+    "lastModificationSignature": "a5631e3dee1a479d94c30effa51886d16bd8c5e0ba7538b34c65da0e5db97cac",
     "enabled": true
   }
 }

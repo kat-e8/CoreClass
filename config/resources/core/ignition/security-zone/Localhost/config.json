@@ -1,0 +1,16 @@
+{
+  "directConnection": false,
+  "entityPolicies": [],
+  "entityZonePolicy": {
+    "priority": 0
+  },
+  "gatewayNames": [],
+  "hostNames": [],
+  "ipAddresses": [
+    "127.0.0.1"
+  ],
+  "isSecure": false,
+  "scopeClient": true,
+  "scopeDesigner": true,
+  "scopeGateway": true
+}

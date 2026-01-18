@@ -30,7 +30,11 @@
       "title": "",
       "viewPath": "Overview Breakpoint"
     },
+    "/security": {
+      "viewPath": "Security"
+    },
     "/style-classes": {
+      "title": "",
       "viewPath": "Style Classes"
     }
   },

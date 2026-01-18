@@ -1,0 +1,50 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 34,
+          "width": 119,
+          "x": 307,
+          "y": 246
+        },
+        "propConfig": {
+          "props.enabled": {
+            "binding": {
+              "config": {
+                "expression": "isAuthorized(false, \"Authenticated/Roles/Administrator\")"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "text": "Admin Only"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 160,
+          "width": 136,
+          "x": 314,
+          "y": 484
+        },
+        "type": "ia.display.cylindrical-tank"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

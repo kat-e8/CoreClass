@@ -1,6 +1,11 @@
 {
   "accessPermissions": {
-    "securityLevels": [],
+    "securityLevels": [
+      {
+        "children": [],
+        "name": "Administrator"
+      }
+    ],
     "type": "AnyOf"
   },
   "allowDesignerSSO": false,
@@ -34,7 +39,7 @@
     ],
     "type": "AnyOf"
   },
-  "designerRoleName": "Administrator",
+  "designerRoleName": "Administrator, Developer",
   "forceIdpAuth": true,
   "readPermissions": {
     "securityLevels": [
