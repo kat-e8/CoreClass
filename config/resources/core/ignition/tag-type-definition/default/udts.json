@@ -206,6 +206,7 @@
         },
         "valueSource": "opc",
         "dataType": "Float8",
+        "historyProvider": "DB",
         "alarms": [
           {
             "mode": "AboveValue",
@@ -224,7 +225,9 @@
             }
           }
         ],
+        "historicalDeadbandStyle": "Analog_Compressed",
         "name": "Amps",
+        "historyEnabled": true,
         "tagType": "AtomicTag",
         "opcServer": "Ignition OPC UA Server"
       },
@@ -235,14 +238,20 @@
         },
         "valueSource": "opc",
         "dataType": "Int2",
+        "historyProvider": "DB",
+        "historicalDeadbandStyle": "Discrete",
         "name": "HOA",
+        "historyEnabled": true,
         "tagType": "AtomicTag",
         "opcServer": "Ignition OPC UA Server"
       },
       {
         "valueSource": "memory",
         "dataType": "Float8",
+        "historyProvider": "DB",
+        "historicalDeadbandStyle": "Discrete",
         "name": "Setpoint",
+        "historyEnabled": true,
         "value": 20,
         "tagType": "AtomicTag"
       }

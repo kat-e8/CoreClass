@@ -21,6 +21,9 @@
       "title": "",
       "viewPath": "Components Lab"
     },
+    "/labwork-chart": {
+      "viewPath": "Labwork Chart"
+    },
     "/mega-view": {
       "title": "",
       "viewPath": "Mega View"
@@ -39,6 +42,13 @@
     "/style-classes": {
       "title": "",
       "viewPath": "Style Classes"
+    },
+    "/tag-history": {
+      "title": "",
+      "viewPath": "Tag History"
+    },
+    "/tghistory": {
+      "viewPath": "TGHistory"
     }
   },
   "sharedDocks": {
